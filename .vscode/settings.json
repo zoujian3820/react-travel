@@ -1,6 +1,15 @@
 {
-    "editor.formatOnSave": true,
     "typescript.tsdk": "node_modules/typescript/lib",
     "typescript.enablePromptUseWorkspaceTsdk": true,
-    "prettier.semi": false
-}
+    // prettier-自动格式化代码
+    "editor.formatOnSave": true,
+    // prettier-使用单引号
+    "prettier.singleQuote": true,
+    // prettier-不要分号
+    "prettier.semi": false,
+    // prettier- (x) => {} 箭头函数参数只有一个时是否要有小括号。avoid：省略括号
+    "prettier.arrowParens": "avoid",
+    //  prettier-在对象，数组括号与文字之间加空格 "{ foo: bar }"
+    "prettier.bracketSpacing": true
+  }
+  
