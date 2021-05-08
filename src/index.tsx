@@ -1,10 +1,3 @@
-/*
- * @Author: mrzou
- * @Date: 2021-05-07 00:27:10
- * @LastEditors: mrzou
- * @LastEditTime: 2021-05-07 01:03:40
- * @Description: file content
- */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -17,5 +10,4 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
 
